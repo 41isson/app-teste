@@ -1,0 +1,65 @@
+.left-side-menu{
+    background-color: rgb(184, 157, 157);
+    display: flex;
+    flex-direction: column;
+    max-width: 210px;
+    height: 99vh;
+    width: 90vw;
+    transform: translateY(-2.5%);
+}
+.left-side-menu:hover{
+    opacity: 50%;
+}
+
+.dropdown{
+    padding-top: 10px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: left;
+    margin-left: 10pc;
+    width: 50%;
+    transform: translateY(-990px);
+    zoom: 70%;
+  }
+  .card-moon {
+    color: aqua;
+    zoom: 60%;
+    display: inline;
+    width: 30%;
+    float: right;
+    position: relative; /* Adicione isso */
+    top: -600px; /* Ajuste esse valor conforme necessário */
+}
+
+  .jumbotron {
+            background: rgb(235, 226, 226);
+            padding: 100px;
+        }
+
+        .content {
+            background: #fff;
+            padding: 50px;
+            font-size: 19px;
+            line-height: 30px;
+            min-height: 3000px;
+        }
+
+        .scroll-line {
+            background: linear-gradient(217deg, rgba(255, 0, 0, 0.8), rgba(255, 0, 0, 0) 70.71%),
+                        linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%),
+                        linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
+            top: -600px;
+            left: 0;
+            height: 10px;
+            position: relative;
+            width: 100%;
+            cursor: pointer;
+            z-index: 1000;
+            transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+        }
+
