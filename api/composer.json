@@ -1,0 +1,26 @@
+{
+    "name": "api/clima",
+    "description": "API for application about climate",
+    "autoload": {
+        "psr-4": {
+            "Api\\Clima\\": "src/",
+ "DAO\\": "DAO/",
+            "Controller\\": "Controller/"
+
+
+        }
+    },
+    "authors": [
+        {
+            "name": "41isson",
+            "email": "alisson.pereira05@fatec.sp.gov.br"
+        }
+    ],
+    "require": {
+        "slim/slim": "^4.12",
+        "slim/psr7": "^1.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    }
+}

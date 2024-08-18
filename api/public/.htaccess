@@ -1,0 +1,10 @@
+RewriteEngine On
+
+# Certifique-se de que mod_rewrite está ativado
+
+# Verifica se o arquivo ou diretório solicitado não existe
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Reescreve a URL para o arquivo index.php na pasta public
+RewriteRule ^(.*)$ index.php [L]
